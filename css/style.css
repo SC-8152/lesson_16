@@ -446,9 +446,10 @@ text-decoration: underline;
     border-radius: 4px;
     
 }
-.select-checkbox__input:checked+.select-checkbox__label::before{
+.select-checkbox__input:checked +
+.select-checkbox__label::before{
 
-background: url(/img/icons/gal.svg) center no-repeat; 
+background: url("/img/icons/gal.svg") center no-repeat; 
 
 }
 .get-discount {
