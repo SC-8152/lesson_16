@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+
+        <main>
+            <div class="pageshipping">
+                <div class="shipping__section form-data">
+                    
+                    <div class="form-data__container">
+                        <div class="form-data__adress shipping-adress">
+                            <h2 class="shipping-adress__title">
+                               Shipping Adrdress
+                            </h2>
+                            <div class="shipping-adress__form login-form">
+                                
+                                <form action="#" class="login-form__items" method="get" enctype="multipart/form-data">
+                                    <div class="login-form__item">
+                                        <label class="form__label" for="email">Email Address <span>*</span></label>
+                                        <input required class="form__input" id="email" autocomplete="off" placeholder="Введіть ваш E-mail" name="mail" type="email">
+                                    </div>
+                                    <div class="login-form__item">
+                                        <label class="form__label" for="password">Password</label>
+                                        <input class="form__input" id="password" autocomplete="off" placeholder="Input password" name="password" type="password">
+                                    </div>
+                                    <div class="login-form__item">
+                                        <label class="form__label" for="zip">Zip/Postal Code</label>
+                                        <input class="form__input" id="zip" minlength="5" maxlength="14" autocomplete="off" placeholder="36000" name="zipcode" type="text">
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="shipping-adress__subtitle">
+                                You already have an account with us. Sign in or continue as guest.
+                            </div>
+                            <div class="shipping-adress__button button-link">
+                                <button class="button-link__login" type="submit">LOGIN</button>
+                                <a href="#" class="button-link__forgotpass">Forgot Your Password?</a>
+
+                            </div>
+                        </div>
+                        <div class="form__items data-form">
+                                
+                            <form action="#" class="data-form__items">
+                                <div class="data-form__item">
+                                    <label class="form__label" for="f-name">First Name <span>*</span></label>
+                                    <input class="form__input" id="f-name" autocomplete="off" placeholder="" name="firstname" type="text">
+                                </div>
+                                <div class="data-form__item">
+                                    <label class="form__label" for="l-name">Last Name <span>*</span></label>
+                                    <input class="form__input" id="l-name" autocomplete="off" placeholder="" name="lastname" type="text">
+                                </div>
+                                <div class="data-form__item">
+                                    <label class="form__label" for="company">Company</label>
+                                    <input class="form__input" id="company" autocomplete="off" placeholder="" name="company" type="text">
+                                </div>
+                                <div class="data-form__item street-items">
+                                    <div class="street-items__label">
+                                        <label class="form__label" for="street">Street Address <span>*</span></label>
+                                    </div>
+                                    <div class="street-items__input">
+                                        <input class="form__input" id="street" autocomplete="off" placeholder="" name="street" type="text">
+                                        <input class="form__input" id="" autocomplete="off" placeholder="" name="street" type="text">
+                                        <input class="form__input" id="" autocomplete="off" placeholder="" name="street" type="text">
+                                    </div>
+                                </div>
+                                <div class="data-form__item">
+                                    <label class="form__label" for="country">Country <span>*</span></label>
+                                    <input class="form__input" id="country" autocomplete="off" placeholder="" name="country" type="text">
+                                </div>
+                                
+                                <div class="data-form__item">
+                                    <label class="form__label" for="state">State/Province <span>*</span></label>
+                                    <select class = "form__input" name="form__list" id="state">
+                                        <option class="state__list" value="">Please select a region, state or province</option>
+                                        
+                                        <option class="state__list" value="Poltava region" >Poltava region</option>
+                                        <option class="state__list" value="Kyiv region" >Kyiv region</option>
+                                    </select>
+                                </div>
+
+
+
+
+
+
+                            </form>
+                        </div>
+
+                        <div class="shipping__method method-shipping">
+                            <!-- <div class="method-shipping__container"> -->
+                                <h2 class="metod-shipping__title">
+                                    Shipping Method
+                                </h2>
+                                <form action="#" class="method-shipping__form form-method" method="get" enctype="multipart/form-data">
+                                    <div class="form-method__radio">
+                                        <div class="form-method__item">
+                                            <div class="radio__item">
+                                                <input checked class="radio__input" id="price-01" required autocomplete="off" value="$5" name="price" type="radio">
+                                                <label class="radio__label" for="price-01">$5</label>
+                                            </div>
+                                            <div class="radio-label__description">
+                                                <p class="opacity">Fixed</p>
+                                                <p>Flat Rate</p>
+                                            </div>
+                                        </div>
+                                        <div class="form-method__item">
+                                            <div class="radio__item">
+                                                <input class="radio__input" id="price-02" required autocomplete="off" name="price" value="$10" type="radio">
+                                                <label class="radio__label" for="price-02">$10</label>
+                                            </div>
+                                            <div class="radio-label__description">
+                                                <p>TableRate</p>
+                                                <p>Best Way</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                
+                                    <div class="form-method__button">
+                                        <button class="button-link__next" type="submit">next</button>
+                                        <a href="#" class="button-link__back">BACK</a>
+                                    </div>
+                                </form>
+                            <!-- </div> -->
+                        </div>
+
+
+                    </div>
+                    
+                </div> 
+
+            <div class="page-checkout">
+                <div class="page-checkout__container">
+                    <h2 class="page-checkout__title">
+                        Billing Details
+                    </h2>
+                    <form action="#" class="checkout__form form-billing" method="get" enctype="multipart/form-data">
+                        <div class="form-billing__items">
+                            
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="fname" autocomplete="off" placeholder="First name*" name="firstname" type="text">
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="lname" autocomplete="off" placeholder="Last name*" name="lastname" type="text">
+                                
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-adress-01" autocomplete="off" placeholder="Addres*" name="b-adress-01" type="text">
+                            </div>    
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-adress-02" autocomplete="off" placeholder="Address line 2" name="b-adress-02" type="text">
+                            </div>
+                            <div class="form-billing__item">
+                                <select class="form-billing__input" id="b-country" autocomplete="off" name="b-country" required>
+                                    <option value="" disabled="" selected="">Country*</option>
+                                    <option value="China">China</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                </select>
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-city" autocomplete="off" placeholder="City/Town" name="b-city" type="text">
+                                
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-zip-01" autocomplete="off" placeholder="Postcode/ZIP*" name="b-zip-01" type="text">
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-phone-01" autocomplete="off" placeholder="Phone*" name="b-phone-01" type="text">
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-zip-02" autocomplete="off" placeholder="Postcode/ZIP*" name="b-zip-02" type="text">
+                            </div>
+                            <div class="form-billing__item">
+                                <input class="form-billing__input" id="b-phone-02" autocomplete="off" placeholder="Phone*" name="b-phone-02" type="text">
+                            </div>
+
+                            <div class="form-billing__item textarea">
+                                <textarea class="form-billing__input" name="b-text" id="b-text" placeholder="Additional information" cols="70" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                            <div class="form-billing__checkbox">
+                                <div class="items-checkbox__item select-checkbox">
+                                    <input checked class="select-checkbox__input" id="create-account" value="yes" type="checkbox">
+                                    <label class="select-checkbox__label" for="create-account">Create Account</label>
+                                </div>
+                                <div class="items-checkbox__item select-checkbox">
+                                    <input class="select-checkbox__input" id="Ship-address" value="yes" type="checkbox">
+                                    <label class="select-checkbox__label" for="Ship-address">Ship to a different address?</label>
+                                </div>
+                            </div>
+
+                            <div class="form-billing__discount get-discount">
+                                <h3 class="get-discount__title">
+                                    Apply Coupon to get discount!
+                                </h3>
+                                <div class="get-discount__items">
+                                    <input class="get-discount__input" id="coupon-code" autocomplete="off" placeholder="Coupon code" name="get-coupon" type="text">
+                                    <button class="get-discount__button" type="button">Apply Code</button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+
+            </div>
+            </div>
+
+        </main>
+        
+        <footer></footer>
+    </div>    
+</body>
+</html>
