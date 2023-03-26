@@ -414,10 +414,11 @@ text-decoration: underline;
 .items-checkbox {
 }
 .items-checkbox__item {
+    position: relative;
     margin-bottom: 25px;
 }
 .select-checkbox {
-    position: relative;
+ 
 }
 .select-checkbox__input {
     position: absolute;
