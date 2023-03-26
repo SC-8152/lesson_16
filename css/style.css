@@ -376,28 +376,20 @@ text-decoration: underline;
 
 .form-billing__item {
     flex: 0 1 336px;
-    padding: 15px 25px;
-
     background: #FFFFFF;
     /* Stroke */
-    
     border: 1px solid #E7E7E7;
     border-radius: 7px;
-
-
 }
 .form-billing__input {
     width: 100%;
     font-family: 'Inter';
-    
+    padding: 15px 25px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     /* identical to box height, or 150% */
-
-
     /* TailGrids Text Color */
-
     color: #637381;
 }
 .form-billing__items {
@@ -447,7 +439,7 @@ text-decoration: underline;
 }
 .select-checkbox__input:checked+.select-checkbox__label::before{
 
-background:url("/img/icons/Vector.png") center no-repeat; 
+background: url(/img/icons/Vector.png) center no-repeat; 
 
 }
 .get-discount {
