@@ -447,7 +447,7 @@ text-decoration: underline;
 }
 .select-checkbox__input:checked+.select-checkbox__label::before{
 
-background:url(/img/icons/Vector.png) center no-repeat; 
+background:url(img/icons/Vector.png) center no-repeat; 
 
 }
 .get-discount {
