@@ -441,13 +441,14 @@ text-decoration: underline;
     content: '';
     width: 22px;
     height: 22px;
+    flex: 0 0 22px;
     background-color: #FFFFFF;
     border: 0.7px solid #E7E7E7;
     border-radius: 4px;
     
 }
 .select-checkbox__input:checked +
-.select-checkbox__label::before{
+.select-checkbox__label::before {
 
 background: url("/img/icons/gal.svg") center no-repeat; 
 
