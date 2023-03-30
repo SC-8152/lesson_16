@@ -112,7 +112,10 @@ span {
     
 }
 .button-link {
-
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
     padding-bottom:36px ;
     border-bottom: 1px solid #C4C4C4;
     width: 100%;
@@ -194,6 +197,8 @@ span {
     font-weight: 400;
 	color:#3F3F3F;
 }
+
+
 
 .shipping__method {
     display: flex;
@@ -506,30 +511,45 @@ color: #212B36;
     background-color: #3b08b3;
 }
 
-/* @media (max-with: 432.98px) {
-    .form__input,
-    .form__label {
-        
+@media screen and (max-width: 730.98px) 
+ {
+    .form-billing__item {
         flex: 0 0 100%;
-        flex-direction: column;
+    
     }
-    
-    
-} */
+} 
 
 
-@media (max-with: 438.98px)
-{
+
+@media screen and (max-width: 510.98px) {
     .login-form__item {
         flex-direction: column;
     }
     .form__label,
     .form__input {
-    width: 100%;
-    
+        flex: 0 0 100%;
+    }
+    .street-items{
+        flex-direction: column;
+        flex: 0 0 100%;
     }
 }
 
+@media screen and (max-width: 366.98px) {
+    .select {
+        font-size: 12px;
+        padding: 15px 10px  ;
+    }
+}
+
+
+
+ 
+
+
+
+
+    
 
 
 
