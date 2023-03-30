@@ -71,6 +71,7 @@ span {
     justify-content: space-between;
     flex-wrap: wrap; 
     row-gap: 10px;
+    column-gap:  5px;
     margin-bottom: 27px;
 }
 
@@ -81,15 +82,19 @@ span {
 }
 .form__label {
     line-height: 1.25;
-    flex: 0 0 30%;
+    flex: 0 1 calc(30%-5px);
     padding-top: 7px;
+    /* margin-right: 5px; */
+    row-gap: 5px;
 }
 .form__input {
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
     padding: 15px 16px;
-    flex: 1 1 70%;
+    flex: 0 1 70%;
 }
+
+
 .shipping-adress__subtitle {
 
     font-weight: 400;
@@ -124,7 +129,7 @@ span {
     text-transform: uppercase;
     color: #FFFFFF;
     background: #000000;
-    transition: 1.8s;
+  
 }
 .button-link__forgotpass {
     font-weight: 400;
@@ -132,7 +137,7 @@ span {
     line-height: 1.4;
     /* or 143% */
     color: #0F6DB1;
-    transition: 1.8s;
+   
 }
 .button-link__login:hover{
     text-decoration: underline;
@@ -474,6 +479,7 @@ color: #212B36;
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
+    row-gap: 20px;
 }
 .get-discount__input {
     flex: 0 1 325px;
@@ -499,3 +505,32 @@ color: #212B36;
 .get-discount__button:hover {
     background-color: #3b08b3;
 }
+
+/* @media (max-with: 432.98px) {
+    .form__input,
+    .form__label {
+        
+        flex: 0 0 100%;
+        flex-direction: column;
+    }
+    
+    
+} */
+
+
+@media (max-with: 438.98px)
+{
+    .login-form__item {
+        flex-direction: column;
+    }
+    .form__label,
+    .form__input {
+    width: 100%;
+    
+    }
+}
+
+
+
+
+    
